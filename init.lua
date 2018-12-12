@@ -111,7 +111,7 @@ minetest.register_privilege("forceload", "Allows players to use forceload block 
 
 minetest.register_node("forceload:anchor",{
 	description = "Block Anchor",
-	walkable = false,
+	walkable = true,
 	tiles = {"forceload_anchor.png"},
 	groups = {cracky = 3, oddly_breakable_by_hand = 2},
 	after_destruct = function(pos)
